@@ -23,7 +23,7 @@ int main()
     struct costoPorArticulo *articulo = new costoPorArticulo[narticulos];  
      
     cout << "\n\tHola! Este programa te ayudara a clasificar tus productos." << endl;
-    cout << "\n\tProfavor escribe el numero de productos que deseas clasificar: "; cin >> narticulos;
+    cout << "\n\tPor favor escribe el numero de productos que deseas clasificar: "; cin >> narticulos;
 
     //invocación de funciones
     InsertarDatos(articulo, narticulos);
